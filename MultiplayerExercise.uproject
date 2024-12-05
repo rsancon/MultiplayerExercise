@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{14C3DD7A-48B6-995B-F2F6-E5B37643031F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MultiplayerExercise",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
