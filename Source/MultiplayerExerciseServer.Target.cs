@@ -2,11 +2,11 @@
 
 using UnrealBuildTool;
 
-public class MultiplayerExerciseEditorTarget : TargetRules
+public class MultiplayerExerciseServerTarget : TargetRules
 {
-	public MultiplayerExerciseEditorTarget(TargetInfo Target) : base(Target)
+	public MultiplayerExerciseServerTarget(TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Editor;
+		Type = TargetType.Server;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;
 		ExtraModuleNames.Add("MultiplayerExercise");
