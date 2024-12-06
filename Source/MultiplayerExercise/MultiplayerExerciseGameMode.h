@@ -10,9 +10,6 @@ UCLASS(minimalapi)
 class AMultiplayerExerciseGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
-
-public:
-	AMultiplayerExerciseGameMode();
 };
 
 
